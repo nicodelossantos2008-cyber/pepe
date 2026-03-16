@@ -9,7 +9,7 @@
 <body>
     <h1>Formulario</h1>
 
-    <form action="../controlador/server.php" method="post">    
+    <form action="../controlador/ingreso.php" method="post">    
         <div class="caja">
             <label for="uname"><b>Nombre</b></label>
             <input type="text" placeholder="Ingreso de nombre" name="uname" required>
@@ -17,7 +17,10 @@
             <label for="psw"><b>Contraseña</b></label>
             <input type="password" placeholder="Ingreso de contraseña" name="psw" required>
 
-            <button type="submit">Login</button>
+            <label for="email"><b>email</b></label>
+            <input type="email" placeholder="Ingreso de email" name="email" required>
+
+            <button type="submit">register</button>
         </div>
     </form>
 </body>
